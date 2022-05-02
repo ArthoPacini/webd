@@ -1,0 +1,94 @@
+body {
+	background: rgb(20, 20, 20);
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+h1 {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 48pt;
+	margin-top: 100px;
+	clear: right;
+}
+
+input {
+	margin: 50px 0;
+	background: none;
+	border-bottom: 1px solid white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	width: 200px;
+	height: 30px;
+}
+
+input:focus {
+	outline: none;
+	border-bottom: 3px solid white;
+	color: white;
+}
+
+::-webkit-input-placeholder {
+	color: white;
+	font-weight: bold;
+}
+
+:-moz-placeholder {
+	/* Firefox 18- */
+	color: white;
+	font-weight: bold;
+}
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	color: white;
+	font-weight: bold;
+}
+
+:-ms-input-placeholder {
+	color: white;
+	font-weight: bold;
+}
+
+button {
+	width: 50px;
+	height: 50px;
+	background: none;
+	border: none;
+	position: absolute;
+	top: 200px;
+	left: 275px;
+}
+
+button:focus {
+	outline: none;
+}
+
+.fas {
+	color: white;
+	font-size: 2em;
+}
+
+.card {
+    color: rgb(255, 255, 255);
+    border-radius: 22px;
+    background-color: rgb(29, 29, 29);
+    max-width: 400px;
+    height: 120px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.card h2 a {
+    color: rgb(255, 255, 255);
+}
+
+.card * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

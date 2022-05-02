@@ -1,0 +1,37 @@
+[
+    {
+        "description": "Test Site",
+        "domain": "teste.com",
+        "files": [
+            "teste.com/index.html"
+        ],
+        "version": 1
+    },
+    {
+        "description": "Not Found 404 Default",
+        "domain": "notfound",
+        "files": [
+            "notfound/index.html"
+        ],
+        "version": 1
+    },
+    {
+        "description": "Cat Site",
+        "domain": "cat.com",
+        "files": [
+            "cat.com/cat.jpg",
+            "cat.com/index.html"
+        ],
+        "version": 1
+    },
+    {
+        "description": "WebD Search",
+        "domain": "search.webd",
+        "files": [
+            "search.webd/index.html",
+            "search.webd/style.css",
+            "search.webd/main.js"
+        ],
+        "version": 1
+    }
+]
